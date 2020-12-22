@@ -9,7 +9,9 @@ class LoadingDialog extends Dialog {
     return Store.connect<ColorModel>(
         builder: (context, ColorModel model, child) {
       return Material(
+        color: Colors.transparent,
         child: Center(
+
             child: Container(
                 width: 120,
                 height: 120,
